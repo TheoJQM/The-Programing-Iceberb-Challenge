@@ -3,41 +3,11 @@ import os
 
 ## Differents options pour le jeu
 choix_options = {
-    "Pierre": {
-        "Lezard": "C'est gagne !",
-        "Ciseaux": "C'est gagne !",
-        "Spock": "C'est perdu !",
-        "Feuille": "C'est perdu !",
-        "Pierre": "Match nul !"
-    },
-    "Feuille": {
-        "Pierre": "C'est gagne !",
-        "Spock": "C'est gagne !",
-        "Ciseaux": "C'est perdu !",
-        "Lezard": "C'est perdu !",
-        "Feuille": "Match nul !"
-    },
-    "Ciseaux": {
-        "Feuille": "C'est gagne !",
-        "Lezard": "C'est gagne !",
-        "Spock": "C'est perdu !",
-        "Pierre": "C'est perdu !",
-        "Ciseaux": "Match nul !"
-    },
-    "Lezard": {
-        "Spock": "C'est gagne !",
-        "Feuille": "C'est gagne !",
-        "Ciseaux": "C'est perdu !",
-        "Pierre": "C'est perdu !",
-        "Lezard": "Match nul !"
-    },
-    "Spock": {
-        "Pierre": "C'est gagne !",
-        "Ciseaux": "C'est gagne !",
-        "Lezard": "C'est perdu !",
-        "Feuille": "C'est perdu !",
-        "Spock": "Match nul !"
-    }
+    "Pierre": { "Lezard": "C'est gagne !", "Ciseaux": "C'est gagne !", "Spock": "C'est perdu !", "Feuille": "C'est perdu !", "Pierre": "Match nul !"},
+    "Feuille": { "Pierre": "C'est gagne !", "Spock": "C'est gagne !", "Ciseaux": "C'est perdu !", "Lezard": "C'est perdu !", "Feuille": "Match nul !" },
+    "Ciseaux": {"Feuille": "C'est gagne !","Lezard": "C'est gagne !", "Spock": "C'est perdu !", "Pierre": "C'est perdu !", "Ciseaux": "Match nul !" },
+    "Lezard": { "Spock": "C'est gagne !", "Feuille": "C'est gagne !", "Ciseaux": "C'est perdu !", "Pierre": "C'est perdu !", "Lezard": "Match nul !" },
+    "Spock": { "Pierre": "C'est gagne !", "Ciseaux": "C'est gagne !", "Lezard": "C'est perdu !", "Feuille": "C'est perdu !", "Spock": "Match nul !" }
 }
 
 jouer = "Oui"
